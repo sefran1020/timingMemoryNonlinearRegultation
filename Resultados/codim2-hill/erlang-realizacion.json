@@ -1,0 +1,84 @@
+{
+  "parametros": {
+    "q": "1/5",
+    "a": "4",
+    "c": "4",
+    "e": "1/10",
+    "b": "1/4",
+    "d": "1/5",
+    "th": "16417/750",
+    "ph": "2179/2400",
+    "r": "119/20",
+    "m": "19/20"
+  },
+  "equilibrio": [
+    "1",
+    "1/2",
+    "15"
+  ],
+  "s_star": "536239/24000",
+  "objetivo_hill": {
+    "n": 2,
+    "Z": "10800000/183761",
+    "H_igual_h_n": "154196739096219919/105846336000000",
+    "g_s_star": "15",
+    "gprima_s_star": "1"
+  },
+  "coeficientes": {
+    "T": "1/4",
+    "Q": "801/100",
+    "B": "9301/1600",
+    "C": "0",
+    "Gprima": "1"
+  },
+  "k2_kappa1": {
+    "factorizacion": "lambda*(4*lambda + 17)*(100*lambda**2 + 1301)/400",
+    "a1": "17/4",
+    "a2": "1301/100",
+    "a3": "22117/400",
+    "a1a2_menos_a3": "0",
+    "omega2": "1301/100",
+    "omega": 3.606937759374287
+  },
+  "k1_factorizacion": "lambda*(1600*kappa*lambda + 9301*kappa + 1600*lambda**2 + 400*lambda + 12816)/1600",
+  "perturbacion": {
+    "gprima": "99/100",
+    "C": "801/10000",
+    "Gprima": "1",
+    "kappas_borde_hurwitz": [
+      0.43553065248731154,
+      0.9899040130494813
+    ],
+    "cruces": [
+      {
+        "kappa": 0.43553065248731154,
+        "autovalores": [
+          "-1.98880014078",
+          "-0.00332246916807",
+          "-3.03276618327*I",
+          "3.03276618327*I"
+        ],
+        "par_imaginario": [
+          "-3.03276618327*I",
+          "3.03276618327*I"
+        ],
+        "dRe_dkappa": 0.24428319203758517
+      },
+      {
+        "kappa": 0.9899040130494813,
+        "autovalores": [
+          "-4.20382435097",
+          "-0.00579170122483",
+          "-3.59098823983*I",
+          "3.59098823983*I"
+        ],
+        "par_imaginario": [
+          "-3.59098823983*I",
+          "3.59098823983*I"
+        ],
+        "dRe_dkappa": -0.185401934953199
+      }
+    ]
+  },
+  "alcance": "Aritmética racional exacta para (a)-(d); en (e) las raíces de la condición de borde se aíslan exactamente (real_roots) y los autovalores se evalúan a 30 dígitos."
+}

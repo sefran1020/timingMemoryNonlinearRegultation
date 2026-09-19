@@ -1,0 +1,46 @@
+{
+  "4": {
+    "kappa_sup": 8.76972,
+    "malla": [
+      1e-06,
+      8.76962
+    ],
+    "puntos": 60000,
+    "abscisa_min": 5.573262307971376e-07,
+    "positiva_en_toda_la_malla": true,
+    "abscisa_en_sup_mas_1e_3": -0.00017250787947931112
+  },
+  "8": {
+    "kappa_sup": 8.98808,
+    "malla": [
+      1e-06,
+      8.98798
+    ],
+    "puntos": 60000,
+    "abscisa_min": 1.3818357259112926e-06,
+    "positiva_en_toda_la_malla": true,
+    "abscisa_en_sup_mas_1e_3": -0.0001823296004389574
+  },
+  "16": {
+    "kappa_sup": 9.08059,
+    "malla": [
+      1e-06,
+      9.080490000000001
+    ],
+    "puntos": 60000,
+    "abscisa_min": 1.6801178807062648e-06,
+    "positiva_en_toda_la_malla": true,
+    "abscisa_en_sup_mas_1e_3": -0.00018848925832196106
+  },
+  "64": {
+    "kappa_sup": 9.14269,
+    "malla": [
+      1e-06,
+      9.14259
+    ],
+    "puntos": 60000,
+    "abscisa_min": 1.8573632620646516e-06,
+    "positiva_en_toda_la_malla": true,
+    "abscisa_en_sup_mas_1e_3": -0.00019255021165318076
+  }
+}

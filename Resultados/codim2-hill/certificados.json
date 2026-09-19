@@ -1,0 +1,246 @@
+{
+  "sympy": "1.14.0",
+  "numpy": "2.4.4",
+  "identidades": {
+    "C_mas_XYD_Fprima": "0",
+    "CmenosQ_mas_XYDZgG": "0",
+    "N1_igual_BmenosT": "0",
+    "erlang": {
+      "1": {
+        "P0_menos": "0",
+        "dP0_cociente": "1"
+      },
+      "2": {
+        "P0_menos": "0",
+        "dP0_cociente": "1"
+      },
+      "3": {
+        "P0_menos": "0",
+        "dP0_cociente": "1"
+      },
+      "4": {
+        "P0_menos": "0",
+        "dP0_cociente": "1"
+      },
+      "5": {
+        "P0_menos": "0",
+        "dP0_cociente": "1"
+      },
+      "6": {
+        "P0_menos": "0",
+        "dP0_cociente": "1"
+      }
+    },
+    "erlang_determinante_menos_Pk": {
+      "1": "0",
+      "2": "0",
+      "3": "0",
+      "4": "0"
+    },
+    "pliegue_k1_factor": "lambda*(X*Y*a*c + X*Y*e*q + X*Z*b*gprime*kappa*theta + X*kappa*q + X*lambda*q + Y*Z*d*gprime*kappa*phi + Y*e*kappa + Y*e*lambda + kappa*lambda + lambda**2)"
+  },
+  "hill": {
+    "sigma1": "1/10",
+    "sigma2": "-(5*n - 4)/450",
+    "sigma3": "(50*n**2 - 120*n + 73)/40500",
+    "Z(n)": "1/(1 - 9/(10*n))",
+    "h^n": "9^n (Z-1)",
+    "ramas": {
+      "inferior": {
+        "coef_n2": "-10208624834587413349763/34496659804116989195676 - 31504347048750346367*sqrt(52921)/34496659804116989195676",
+        "coef_n1": "-104598344810035588569583/86241649510292472989190 - 168793449290953712741*sqrt(52921)/43120824755146236494595",
+        "coef_n0": "286747483990896262544147/431208247551462364945950 + 894725263177791459709*sqrt(52921)/215604123775731182472975",
+        "coef_float": [
+          -0.5060218251315695,
+          -2.113349438066196,
+          1.6196415379789715
+        ],
+        "vertice_n": -2.088199888924464,
+        "P_9_10": -0.6922506346371761,
+        "raices_aprox": [
+          [
+            -4.837984121291644,
+            0.0
+          ],
+          [
+            0.661584343442715,
+            0.0
+          ]
+        ],
+        "c2_negativo": true,
+        "vertice_menor_9_10": true,
+        "P_9_10_negativo": true,
+        "valor_n1": -0.9997297252187939
+      },
+      "superior": {
+        "coef_n2": "-10208624834587413349763/34496659804116989195676 + 31504347048750346367*sqrt(52921)/34496659804116989195676",
+        "coef_n1": "-104598344810035588569583/86241649510292472989190 + 168793449290953712741*sqrt(52921)/43120824755146236494595",
+        "coef_n0": "286747483990896262544147/431208247551462364945950 - 894725263177791459709*sqrt(52921)/215604123775731182472975",
+        "coef_float": [
+          -0.08583981553481583,
+          -0.3123542771103637,
+          -0.28966936968608886
+        ],
+        "vertice_n": -1.819402075623495,
+        "P_9_10": -0.640318469668617,
+        "raices_aprox": [
+          [
+            -1.8194020756234948,
+            -0.2535941891632987
+          ],
+          [
+            -1.8194020756234948,
+            0.2535941891632987
+          ]
+        ],
+        "c2_negativo": true,
+        "vertice_menor_9_10": true,
+        "P_9_10_negativo": true,
+        "valor_n1": -0.6878634623312684
+      }
+    }
+  },
+  "hopf_degenerado_jet": {
+    "inferior": {
+      "sigma3_estrella": "(26519106476735688298503 - 41551902125276402947*sqrt(52921))/12234285044205090912189000",
+      "sigma3_estrella_float": 0.0013862904272869672,
+      "a3_float": 761.8634859800428,
+      "dl1_dsigma3_signo": "positivo"
+    },
+    "superior": {
+      "sigma3_estrella": "(41551902125276402947*sqrt(52921) + 26519106476735688298503)/12234285044205090912189000",
+      "sigma3_estrella_float": 0.0029489210510979945,
+      "a3_float": 239.26959167870345,
+      "dl1_dsigma3_signo": "positivo"
+    }
+  },
+  "erlang_ejemplo": [
+    {
+      "k": 1,
+      "N0_sobre_Q": 6.74,
+      "sec_k": null,
+      "inestable_lento_predicho": false,
+      "abscisa_en_1e-5": -7.740180808145491e-05,
+      "cruces": [
+        0.40729410994586307,
+        6.461126942685722
+      ]
+    },
+    {
+      "k": 2,
+      "N0_sobre_Q": 6.74,
+      "sec_k": null,
+      "inestable_lento_predicho": false,
+      "abscisa_en_1e-5": -1.999953280330867e-05,
+      "cruces": [
+        0.2698933770591223,
+        8.197509298615847
+      ]
+    },
+    {
+      "k": 3,
+      "N0_sobre_Q": 6.74,
+      "sec_k": 7.999999999999995,
+      "inestable_lento_predicho": false,
+      "abscisa_en_1e-5": -1.6654987157770584e-06,
+      "cruces": [
+        0.05728062298125651,
+        8.599264125117987
+      ]
+    },
+    {
+      "k": 4,
+      "N0_sobre_Q": 6.74,
+      "sec_k": 3.999999999999999,
+      "inestable_lento_predicho": true,
+      "abscisa_en_1e-5": 5.573404465701949e-06,
+      "cruces": [
+        8.76971896034531
+      ]
+    },
+    {
+      "k": 5,
+      "N0_sobre_Q": 6.74,
+      "sec_k": 2.885438199983175,
+      "inestable_lento_predicho": true,
+      "abscisa_en_1e-5": 9.246171497882934e-06,
+      "cruces": [
+        8.862414446498002
+      ]
+    },
+    {
+      "k": 6,
+      "N0_sobre_Q": 6.74,
+      "sec_k": 2.3703703703703694,
+      "inestable_lento_predicho": true,
+      "abscisa_en_1e-5": 1.1415449764973666e-05,
+      "cruces": [
+        8.920244244855333
+      ]
+    },
+    {
+      "k": 7,
+      "N0_sobre_Q": 6.74,
+      "sec_k": 2.075064056041981,
+      "inestable_lento_predicho": true,
+      "abscisa_en_1e-5": 1.2830054485772198e-05,
+      "cruces": [
+        8.959613352372424
+      ]
+    },
+    {
+      "k": 8,
+      "N0_sobre_Q": 6.74,
+      "sec_k": 1.8839840974630029,
+      "inestable_lento_predicho": true,
+      "abscisa_en_1e-5": 1.381836559528781e-05,
+      "cruces": [
+        8.988081883601447
+      ]
+    },
+    {
+      "k": 16,
+      "N0_sobre_Q": 6.74,
+      "sec_k": 1.364008166444361,
+      "inestable_lento_predicho": true,
+      "abscisa_en_1e-5": null,
+      "cruces": [
+        9.080587012306173
+      ],
+      "nota": "solo extremo superior"
+    },
+    {
+      "k": 32,
+      "N0_sobre_Q": 6.74,
+      "sec_k": 1.1670286830688117,
+      "inestable_lento_predicho": true,
+      "abscisa_en_1e-5": null,
+      "cruces": [
+        9.12268006679326
+      ],
+      "nota": "solo extremo superior"
+    },
+    {
+      "k": 64,
+      "N0_sobre_Q": 6.74,
+      "sec_k": 1.0801903437405351,
+      "inestable_lento_predicho": true,
+      "abscisa_en_1e-5": null,
+      "cruces": [
+        9.142686613837927
+      ],
+      "nota": "solo extremo superior"
+    }
+  ],
+  "retardo_discreto": {
+    "f": "omega**4 - 231*omega**2/25 - 111069/100",
+    "omega_c2": "231/50 + 3*sqrt(314454)/50",
+    "omega_c": 6.185929105281939,
+    "fprima_signo": 1,
+    "tau_c": "0.109146479981937",
+    "kappa_c": "9.16199954561514",
+    "periodo_cruces": "1.01572216561852",
+    "N0_sobre_Q": 6.74
+  },
+  "alcance": "Las identidades y el signo de la familia de Hill son exactos; las ventanas de Erlang k>=2 son raíces aisladas numéricamente."
+}

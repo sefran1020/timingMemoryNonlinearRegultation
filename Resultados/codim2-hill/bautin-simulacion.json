@@ -1,0 +1,33 @@
+{
+  "Z_GH": "30.069387123508215074",
+  "kappa_GH": "0.44093984125913082554",
+  "Re_c2_vx1": 0.05955019807915086,
+  "l2_vx1": 0.01715172416046149,
+  "integraciones": [
+    {
+      "A0": 0.24,
+      "T": 20000.0,
+      "A_inicial": 0.23100564282332625,
+      "A_final": 0.34405279013446405,
+      "pendiente_Am4": -0.014058159857794109,
+      "prediccion": -0.014887549519787715
+    },
+    {
+      "A0": 0.16,
+      "T": 20000.0,
+      "A_inicial": 0.15580639409973351,
+      "A_final": 0.16327149445115563,
+      "pendiente_Am4": -0.014602671599751564,
+      "prediccion": -0.014887549519787715
+    },
+    {
+      "A0": 0.12,
+      "T": 60000.0,
+      "A_inicial": 0.11759113567917223,
+      "A_final": 0.1231372958812963,
+      "pendiente_Am4": -0.01473308117374914,
+      "prediccion": -0.014887549519787715
+    }
+  ],
+  "alcance": "Integración numérica; confirma el signo y el orden de magnitud de Re c2. Las correcciones O(A^2) explican diferencias con la predicción."
+}

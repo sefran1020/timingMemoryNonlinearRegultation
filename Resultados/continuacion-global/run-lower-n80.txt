@@ -1,0 +1,11 @@
+Julia=1.12.4; BifurcationKit=0.8.5
+Ntst=80; degree=4; Newton tolerance=1e-10; PALC; dsmax=0.04; side=lower
+seconds=32.11500000953674
+ ┌─ Curve type: PeriodicOrbitCont from Hopf bifurcation point.
+ ├─ Number of points: 133
+ ├─ Type of vectors: Vector{Float64}
+ ├─ Parameter kappa starts at 0.4092943583924221, ends at 6.461125942685714
+ ├─ Algo: PALC [Secant]
+ └─ Special points:
+
+- #  1, endpoint at kappa ≈ +6.46112594,                                                                     step = 132
